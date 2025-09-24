@@ -1,0 +1,41 @@
+{
+  "name": "M&A Auto - Concessionario",
+  "short_name": "M&A Auto",
+  "description": "Il tuo concessionario di fiducia per auto usate",
+  "theme_color": "#1e40af",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["business", "automotive"],
+  "lang": "it",
+  "shortcuts": [
+    {
+      "name": "Cerca Auto",
+      "short_name": "Cerca",
+      "description": "Cerca auto usate",
+      "url": "/#auto",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Contatti",
+      "short_name": "Contatti",
+      "description": "Contatta M&A Auto",
+      "url": "/#contatti",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
