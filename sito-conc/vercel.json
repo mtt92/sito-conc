@@ -1,6 +1,12 @@
 {
   "version": 2,
   "name": "ma-auto",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
   "functions": {
     "api/cars.js": {
       "maxDuration": 30
